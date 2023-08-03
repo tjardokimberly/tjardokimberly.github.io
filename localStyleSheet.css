@@ -19,12 +19,18 @@ h2.test-class {
 p.test-class {
   font-size: 2.7vw;
   margin-bottom: 10px;
+  padding-left: 5x;
+  padding-right: 0px;
   color: white;
   background-color: rgb(255, 192, 203, 0.6)
 }
-
-div.opacity60 {
-  opacity: 60;
+/* screen width higher than 750px */
+@media screen and (min-width: 750px) {
+  p.test-class {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
 }
+
 
 
