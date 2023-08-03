@@ -3,6 +3,7 @@ h2.test-class {
   margin-top: 10px;
   margin-bottom: 30px;
   color: white;
+  background-color: pink;
 }
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
