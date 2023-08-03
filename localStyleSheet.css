@@ -4,6 +4,13 @@ h2.test-class {
   margin-bottom: 30px;
   color: white;
 }
+/* screen width higher than 750px */
+@media screen and (min-width: 750px) {
+  h2.test-class {
+    margin-left: 70px; 
+  }
+}
+
 p.test-class {
   font-size: 2.2vw;
   margin-bottom: 10px;
