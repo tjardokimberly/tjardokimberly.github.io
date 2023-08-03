@@ -2,13 +2,17 @@ h2.test-class {
   font-size: 3.2vw;
   margin-top: 10px;
   margin-bottom: 30px;
+  padding-left: 5x;
+  padding-right: 0px;
   color: white;
   background-color: pink;
 }
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
   h2.test-class {
-    margin-bottom: 70px; 
+    margin-bottom: 90px; 
+    padding-left: 15px;
+    padding-right: 10px;
   }
 }
 
