@@ -4,7 +4,7 @@ h2.test-class {
   margin-bottom: 30px;
   padding-left: 5x;
   padding-right: 0px;
-  color: white;
+  color: rgb(255,255,255, 0.8);
   background-color: rgb(255, 192, 203, 0.3)
 }
 /* screen width higher than 750px */
@@ -21,7 +21,7 @@ p.test-class {
   margin-bottom: 10px;
   padding-left: 5x;
   padding-right: 0px;
-  color: white;
+  color: rgb(255,255,255, 0.8);
   background-color: rgb(255, 192, 203, 0.3)
 }
 /* screen width higher than 750px */
