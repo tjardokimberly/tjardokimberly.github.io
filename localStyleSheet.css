@@ -5,7 +5,7 @@ h2.test-class {
   padding-left: 5x;
   padding-right: 0px;
   color: white;
-  background-color: rgb(255, 192, 203, 0.6)
+  background-color: rgb(255, 192, 203, 0.3)
 }
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
@@ -22,7 +22,7 @@ p.test-class {
   padding-left: 5x;
   padding-right: 0px;
   color: white;
-  background-color: rgb(255, 192, 203, 0.6)
+  background-color: rgb(255, 192, 203, 0.3)
 }
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
