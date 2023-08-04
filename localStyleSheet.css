@@ -30,5 +30,11 @@ p.landing-page-class {
   }
 }
 
+div.sticky-navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
 
 
