@@ -8,7 +8,7 @@ h2.landing-page-class{
 }
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
-  h2.test-class {
+  h2.landing-page-class {
     margin-top: 180px;
     padding-left: 15px;
     padding-right: 10px;
@@ -24,7 +24,7 @@ p.landing-page-class {
 }
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
-  p.test-class {
+  p.landing-page-class {
     margin-top: 200px;
     padding-left: 15px;
     padding-right: 10px;
