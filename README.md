@@ -1,2 +1,1 @@
-# tjardokimberly.github.io
-Website voor bruiloft
+Bruiloftsite van Kimberly en Tjardo

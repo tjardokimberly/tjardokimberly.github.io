@@ -96,4 +96,18 @@ img{
   }
 }
 
+div.pink-container-page-view {
+  height: 100vh;
+  background-color: #FFCCCC;
+  position: relative;
+}
 
+div.position-absolute-bottom {
+  position: absolute;
+  background-color: #FFCCCC;
+  bottom: 0;
+}
+
+div.top-margin-fix {
+  padding-top: 160px;
+}

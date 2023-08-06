@@ -1,0 +1,16 @@
+@charset "UTF-8";
+* {
+  position: relative;
+}
+
+
+.footer {
+  height: 100px;
+  background-color: #FFCCCC;
+}
+.footer .icon {
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+}
