@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
 h2.landing-page-class{
@@ -48,56 +50,9 @@ div.sticky-navbar {
   z-index: 100;
 }
 
-div.container{
-  width: 500px;
-  overflow: hidden;
-  box-shadow: -1px 5px 15px black;
-  transform: translate(20%,30%);
-}
-
-/*Area of images*/
-.wrapper{
-  width: 100%;
-  display: flex;
-  animation: slide 16s infinite;
-}
-
-img{
-  width: 100%;
-}
-/*Animation activated by keyframes*/
-@keyframes slide{
-  0%{
-      transform: translateX(0);
-  }
-  20%{
-      transform: translateX(0);
-  }
-  25%{
-      transform: translateX(-100%);
-  }
-  45%{
-      transform: translateX(-100%);
-  }
-  50%{
-      transform: translateX(-200%);
-  }
-  70%{
-      transform: translateX(-200%);
-  }
-  75%{
-      transform: translateX(-300%);
-  }
-  95%{
-    transform: translateX(-300%);
-  }
-  100%{
-      transform: translateX(0);
-  }
-}
-
 div.pink-container-page-view {
   height: 100vh;
+  width: 100%;
   background-color: #FFCCCC;
   position: relative;
 }
