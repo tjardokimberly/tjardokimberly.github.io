@@ -5,12 +5,13 @@
 
 
 .footer {
-  height: 100px;
+  height: 10vh;
   background-color: #FFCCCC;
 }
 .footer .icon {
-  width: 500px;
+  width: 40vw;
   position: absolute;
   bottom: 0;
-  left: 450px;
+  left: 50vw;
+  transform: translate(-50%,0%);
 }
