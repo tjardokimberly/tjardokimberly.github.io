@@ -116,7 +116,7 @@ h6 {
   height: 100%;
 }
 
-.carousel {
+.own-carousel {
   pointer-events: none;
   position: absolute;
   -webkit-padding-before: 67px;
@@ -128,7 +128,7 @@ h6 {
   z-index: 1;
 }
 @media (max-width: 568px) {
-  .carousel {
+  .own-carousel {
     -webkit-padding-after: 52px;
             padding-block-end: 52px;
   }
@@ -139,7 +139,7 @@ h6 {
   justify-content: center;
   height: 61.2vh;
 }
-.carousel .item {
+.own-carousel .item {
   position: absolute;
   top: 0;
   max-width: 418px;
@@ -151,39 +151,39 @@ h6 {
           animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
 }
 @media (max-width: 568px) {
-  .carousel .item {
+  .own-carousel .item {
     margin-inline: calc(var(--container-padding-horizontal) + 2px);
   }
 }
-.carousel .item:nth-child(1) {
+.own-carousel .item:nth-child(1) {
   -webkit-animation-delay: calc(3.8571428571s * -1);
           animation-delay: calc(3.8571428571s * -1);
 }
-.carousel .item:nth-child(2) {
+.own-carousel .item:nth-child(2) {
   -webkit-animation-delay: calc(3.8571428571s * 0);
           animation-delay: calc(3.8571428571s * 0);
 }
-.carousel .item:nth-child(3) {
+.own-carousel .item:nth-child(3) {
   -webkit-animation-delay: calc(3.8571428571s * 1);
           animation-delay: calc(3.8571428571s * 1);
 }
-.carousel .item:nth-child(4) {
+.own-carousel .item:nth-child(4) {
   -webkit-animation-delay: calc(3.8571428571s * 2);
           animation-delay: calc(3.8571428571s * 2);
 }
-.carousel .item:nth-child(5) {
+.own-carousel .item:nth-child(5) {
   -webkit-animation-delay: calc(3.8571428571s * 3);
           animation-delay: calc(3.8571428571s * 3);
 }
-.carousel .item:nth-child(6) {
+.own-carousel .item:nth-child(6) {
   -webkit-animation-delay: calc(3.8571428571s * 4);
           animation-delay: calc(3.8571428571s * 4);
 }
-.carousel .item:last-child {
+.own-carousel .item:last-child {
   -webkit-animation-delay: calc(-3.8571428571s * 2);
           animation-delay: calc(-3.8571428571s * 2);
 }
-.carousel img {
+.own-carousel img {
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
