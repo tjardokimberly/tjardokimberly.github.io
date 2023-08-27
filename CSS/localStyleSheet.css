@@ -51,11 +51,17 @@ div.position-absolute-bottom {
   bottom: 0;
 }
 
-div.top-padding-fix {
+div.app-style {
   padding-top: 10vh;
+  min-height: 100vh;
+  background-color: #FFCCCC;
 }
 
 .landing-page-image {
   max-width: 100%;
   height: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
