@@ -109,8 +109,11 @@ h6 {
 
 .carousel-container {
   --container-padding-horizontal: 32px;
+  --container-padding-vertical: 10vh;
   position: relative;
   padding-inline: var(--container-padding-horizontal);
+  padding-top: var(--container-padding-vertical);
+  padding-bottom: var(--container-padding-vertical);
   display: grid;
   place-items: center;
   height: 100%;

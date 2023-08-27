@@ -39,10 +39,19 @@ div.sticky-navbar {
 }
 
 div.pink-container-page-view {
-  height: 100vh;
   width: 100%;
   background-color: #FFCCCC;
   position: relative;
+}
+
+/* screen width higher than 750px */
+@media screen and (min-width: 750px) {
+  div.pink-container-page-view {
+    height: 100vh;
+    width: 100%;
+    background-color: #FFCCCC;
+    position: relative;
+  }
 }
 
 div.position-absolute-bottom {
