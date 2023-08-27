@@ -51,8 +51,8 @@ div.position-absolute-bottom {
   bottom: 0;
 }
 
-div.top-margin-fix {
-  padding-top: 160px;
+div.top-padding-fix {
+  padding-top: 10vh;
 }
 
 .landing-page-image {

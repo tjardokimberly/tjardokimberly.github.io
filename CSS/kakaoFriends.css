@@ -5,8 +5,9 @@
 
 
 .footer {
-  height: 10vh;
+  height: 25vh;
   background-color: #FFCCCC;
+  bottom: 0;
 }
 .footer .icon {
   width: 40vw;
