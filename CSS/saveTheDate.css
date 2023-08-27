@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Silkscreen");
 
 .save-the-date-text{
+    padding-top: 10vh;
     text-align: center;
     font-family: "Silkscreen", sans-serif;
     font-size: 5vw;
