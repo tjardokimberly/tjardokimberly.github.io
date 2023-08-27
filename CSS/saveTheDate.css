@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Silkscreen");
+
+.save-the-date-text{
+    text-align: center;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 5vw;
+    margin: 0;
+    color: #fff8e0;
+}
