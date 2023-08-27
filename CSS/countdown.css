@@ -75,7 +75,7 @@
   padding: 0 0 30px;
   font-family: "Playfair Display", serif;
   font-weight: 900;
-  font-size: 6.25em;
+  font-size: 5vw;
   color: #FFCCCC;
   background: #fff8e0;
   transform-origin: top center;
@@ -89,7 +89,7 @@
   color: #FFCCCC;
   background: #fff4d0;
   text-transform: lowercase;
-  font-size: 1.5em;
+  font-size: 2vw;
   font-weight: 600;
 }
 .timer .text {
