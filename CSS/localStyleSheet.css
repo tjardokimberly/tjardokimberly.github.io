@@ -54,3 +54,8 @@ div.position-absolute-bottom {
 div.top-margin-fix {
   padding-top: 160px;
 }
+
+.landing-page-image {
+  max-width: 100%;
+  height: auto;
+}
