@@ -53,8 +53,16 @@ div.position-absolute-bottom {
 
 div.app-style {
   padding-top: 10vh;
-  min-height: 100vh;
   background-color: #FFCCCC;
+}
+
+/* screen width higher than 750px */
+@media screen and (min-width: 750px) {
+  div.app-style {
+    padding-top: 10vh;
+    min-height: 100vh;
+    background-color: #FFCCCC;
+  }
 }
 
 .landing-page-image {
