@@ -1,10 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Silkscreen");
 
-.save-the-date-head-text{
-    padding-top: 10vh;
+.sTD-head-text{
+    padding-top: 1vh;
     text-align: center;
     font-family: "Silkscreen", sans-serif;
     font-size: 5vw;
     margin: 0;
     color: #fff8e0;
 }
+
+.sTD-body-text{
+    padding-top: 10vh;
+    text-align: center;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 1.8vw;
+    margin: 0;
+    color: #fff8e0;
+}
+
+.sTD-text-container {
+    width: 90vh;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
