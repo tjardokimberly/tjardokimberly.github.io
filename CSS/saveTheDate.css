@@ -44,3 +44,7 @@
         transform: translateX(-50%);
       }
   }
+
+a.sTD-dark-pink-color {
+    color: rgba(255, 45, 169, 0.64)
+}
