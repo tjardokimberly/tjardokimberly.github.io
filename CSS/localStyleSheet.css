@@ -99,7 +99,7 @@ div.app-style {
   font-family: "Silkscreen", sans-serif;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 970px) {
   .custom-hide-small{display:none!important}
 }
 
