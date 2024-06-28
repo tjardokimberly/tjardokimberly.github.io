@@ -8,6 +8,10 @@
 <link rel="apple-touch-icon" sizes="96x96" href="icons8-snorlax-96.png">
 <link type="image/png" sizes="96x96" rel="icon" href="icons8-snorlax-96.png">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -47,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     <h2 class="landing-page-class text-center">Kimberly & Tjardo</h2>
     <p class="landing-page-class text-center">
       07 september 2024 <br>
-      <a href="#Save the date" class="link-secondary text-white">
+      <a href="#welkom" class="link-secondary text-white">
         <span  class="material-symbols-outlined double-arrow-down">
           keyboard_double_arrow_down
         </span>
@@ -61,35 +65,30 @@ h1, h2, h3, h4, h5, h6 {
 
   <!-- navbar stays on top after landing page -->
   <div id="main" class="sticky-navbar">
-    <div class="w3-bar w3-white w3-padding w3-card silkscreen" style="letter-spacing:4px;">
-      <a href="#home" class="w3-bar-item w3-button">K&T  07/09/2024</a>
+    <div class="w3-bar w3-white w3-padding w3-card cormorant-sc" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button changing-font-size">K&T  07/09/2024</a>
       
-      <div class="w3-right w3-hide-small custom-hide-small">
-        <!---<a href="#rsvp" class="w3-bar-item w3-button">RSVP</a>--->
-        <a href="#Save the date" class="w3-bar-item w3-button">Save the date</a>        
-        <a href="#photos" class="w3-bar-item w3-button">Photos</a>
-        <a href="#Informatie" class="w3-bar-item w3-button">Info</a>
-        <a href="#RSVP" class="w3-bar-item w3-button">RSVP</a>
-        <a href="#app" class="w3-bar-item w3-button">Countdown</a>
+      <div class="w3-right">
+        <a href="rsvp.html" class="w3-bar-item w3-button changing-font-size">RSVP</a>
+        <a href="info.html" class="w3-bar-item w3-button changing-font-size">Info</a>
+        <a href="wensenlijst.html" class="w3-bar-item w3-button changing-font-size">Cadeauwensen</a>
       </div>
     </div>
   </div>
-  
+
   <!-- Save The Date Section -->
-  <div id="Save the date" class="pink-container-page-view">
+  <div id="welkom" class="container-page-view">
     <div class="sTD-text-container">
+    <p class="sTD-head-text">Welkom!</p>  
       <p class="sTD-body-text">
-        Na 6 tergend lange jaren, is Tjardo in april dit jaar dan éindelijk op één knie gegaan..
-        en nee, niet om zijn veters te strikken.. en ja, Kimberly heeft ja gezegd (phew). Inmiddels is er bijna een halfjaar verstreken
-        en is al meederere keren de vraag opgekomen of er al een datum bekend is. Voor deze enthousiastelingen brengen wij heuglijk 
-        nieuws! Op 7 september 2024 vieren wij onze bruiloft en we willen jou er graag bij hebben, dus
+        Op deze site vind je alle informatie over onze bruiloft op 7 september.
       </p>
-      <p class="sTD-head-text">Save the date!</p>    
+      <img class="present-image" src="Images/Double_happiness.svg" alt="Kadootjess" height="800px">  
     </div>
   </div>
 
   <!-- Photo Carousel Page -->
-  <div id="photos" class="pink-container-page-view overflow-x-hidden">
+  <div id="photos" class="container-page-view overflow-x-hidden">
     <div class="carousel-container">
       <aside class="own-carousel">
         <div class="carousel__wrapper">
@@ -132,27 +131,6 @@ h1, h2, h3, h4, h5, h6 {
           </div>
         </footer>
       </article>
-    </div>
-  </div>
-
-  <!-- Information Section -->
-  <div id="Informatie" class="pink-container-page-view">
-    <div class="sTD-text-container">
-      <p class="sTD-head-text">Informatie</p>  
-      <p class="sTD-body-text">
-        Hier komt informatie over de bruiloft.
-      </p>  
-    </div>
-  </div>
-
-  <!-- RSVP Section -->
-  <div id="RSVP" class="pink-container-page-view">
-    <div class="sTD-text-container">
-      <p class="sTD-head-text">RSVP</p>  
-      <p class="sTD-body-text">
-        Wij horen graag of je wel of niet kan komen, en of je nog allergiën hebt: 
-        <a class="sTD-dark-pink-color" href="https://forms.gle/Tkkj6pEj25AyypXj7" target="_blank">RSVP</a> 
-      </p>  
     </div>
   </div>
   

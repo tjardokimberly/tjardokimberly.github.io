@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Silkscreen");
-
 html {
   scroll-behavior: smooth;
   margin: 0;
@@ -40,31 +38,31 @@ div.sticky-navbar {
   z-index: 100;
 }
 
-div.pink-container-page-view {
+div.container-page-view {
   width: 100%;
-  background-color: #FFCCCC;
+  background-color: #f9dccd;
   position: relative;
 }
 
 /* screen width higher than 750px */
 @media screen and (min-width: 750px) {
-  div.pink-container-page-view {
+  div.container-page-view {
     height: 100vh;
     width: 100%;
-    background-color: #FFCCCC;
+    background-color: #f9dccd;
     position: relative;
   }
 }
 
 div.position-absolute-bottom {
   position: absolute;
-  background-color: #FFCCCC;
+  background-color: #f9dccd;
   bottom: 0;
 }
 
 div.app-style {
   padding-top: 10vh;
-  background-color: #FFCCCC;
+  background-color: #f9dccd;
 }
 
 /* screen width higher than 750px */
@@ -72,7 +70,7 @@ div.app-style {
   div.app-style {
     padding-top: 10vh;
     min-height: 100vh;
-    background-color: #FFCCCC;
+    background-color: #f9dccd;
   }
 }
 
@@ -80,6 +78,20 @@ div.app-style {
   height: 100vh;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+.dresscode-image {
+  height: 30vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-top: 5vh;
+}
+
+.present-image {
+  height: 50vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-top: 5vh;
 }
 
 /* screen width higher than 750px */
@@ -95,11 +107,14 @@ div.app-style {
   overflow-x: hidden;
 }
 
-.silkscreen{
-  font-family: "Silkscreen", sans-serif;
+.cormorant-sc{
+  font-family: "Cormorant SC", sans-serif;
 }
 
 @media screen and (max-width: 970px) {
   .custom-hide-small{display:none!important}
 }
 
+.changing-font-size{
+  font-size:1.05vw
+}
