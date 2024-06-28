@@ -8,6 +8,10 @@
 <link rel="apple-touch-icon" sizes="96x96" href="icons8-snorlax-96.png">
 <link type="image/png" sizes="96x96" rel="icon" href="icons8-snorlax-96.png">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -47,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     <h2 class="landing-page-class text-center">Kimberly & Tjardo</h2>
     <p class="landing-page-class text-center">
       07 september 2024 <br>
-      <a href="#Save the date" class="link-secondary text-white">
+      <a href="#welkom" class="link-secondary text-white">
         <span  class="material-symbols-outlined double-arrow-down">
           keyboard_double_arrow_down
         </span>
@@ -61,33 +65,30 @@ h1, h2, h3, h4, h5, h6 {
 
   <!-- navbar stays on top after landing page -->
   <div id="main" class="sticky-navbar">
-    <div class="w3-bar w3-white w3-padding w3-card silkscreen" style="letter-spacing:4px;">
-      <a href="#home" class="w3-bar-item w3-button">K&T  07/09/2024</a>
+    <div class="w3-bar w3-white w3-padding w3-card cormorant-sc" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button changing-font-size">K&T  07/09/2024</a>
       
-      <div class="w3-right w3-hide-small custom-hide-small">
-        <!---<a href="#rsvp" class="w3-bar-item w3-button">RSVP</a>--->
-        <a href="#Save the date" class="w3-bar-item w3-button">Save the date</a>        
-        <a href="#photos" class="w3-bar-item w3-button">Photos</a>
-        <a href="#app" class="w3-bar-item w3-button">Countdown</a>
+      <div class="w3-right">
+        <a href="rsvp.html" class="w3-bar-item w3-button changing-font-size">RSVP</a>
+        <a href="info.html" class="w3-bar-item w3-button changing-font-size">Info</a>
+        <a href="wensenlijst.html" class="w3-bar-item w3-button changing-font-size">Cadeauwensen</a>
       </div>
     </div>
   </div>
-  
+
   <!-- Save The Date Section -->
-  <div id="Save the date" class="pink-container-page-view">
+  <div id="welkom" class="container-page-view">
     <div class="sTD-text-container">
+    <p class="sTD-head-text">Welkom!</p>  
       <p class="sTD-body-text">
-        Na 6 tergend lange jaren, is Tjardo in april dit jaar dan éindelijk op één knie gegaan..
-        en nee, niet om zijn veters te strikken.. en ja, Kimberly heeft ja gezegd (phew). Inmiddels is er bijna een halfjaar verstreken
-        en is al meederere keren de vraag opgekomen of er al een datum bekend is. Voor deze enthousiastelingen brengen wij heuglijk 
-        nieuws! Op 7 september 2024 vieren wij onze bruiloft en we willen jou er graag bij hebben, dus
+        Op deze site vind je alle informatie over onze bruiloft op 7 september.
       </p>
-      <p class="sTD-head-text">Save the date!</p>    
+      <img class="present-image" src="Images/Double_happiness.svg" alt="Kadootjess" height="800px">  
     </div>
   </div>
 
-  <!-- own-carousel page -->
-  <div id="photos" class="pink-container-page-view overflow-x-hidden">
+  <!-- Photo Carousel Page -->
+  <div id="photos" class="container-page-view overflow-x-hidden">
     <div class="carousel-container">
       <aside class="own-carousel">
         <div class="carousel__wrapper">
@@ -132,25 +133,8 @@ h1, h2, h3, h4, h5, h6 {
       </article>
     </div>
   </div>
-
-
-  <!-- RSVP Section -->
-  <!---
-  <div class="w3-container w3-padding-64" id="rsvp">
-    <h1>RSVP</h1><br>
-    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
-    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
-
-  <div>Sponsored by the great Ior-sama</div>-->
+  
+  <!---<div>Sponsored by the great Ior-sama</div>-->
 
   <!---Countdown Section-->
   <div id="app" class="app-style">
