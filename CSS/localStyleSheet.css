@@ -4,6 +4,10 @@ html {
   padding: 0;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 h2.landing-page-class{
   text-align: center;
   font-size: 3.7vw;
